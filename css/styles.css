@@ -1,7 +1,7 @@
 body {background-color: #000000;
 	font-family: sans-serif;
-	margin-left: 00px;
-	margin-right: 00px;
+	margin-left: 20px;
+	margin-right: 0px;
 	
 }
 	
@@ -14,14 +14,18 @@ a:visited {color: #FFFFFF;
 a:active {color: #FFFFFF;			
 }
 
-p {font-size: 17px;
+p {font-size: 1em;
 }
+
+h1 {font-size: 1.5em;}
+
+h2 {font-size: 1em;}
 
 #topbanner {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	color: #FFFFFF;
-	font-size: 27px;
+	
 	
 }
 
@@ -36,7 +40,7 @@ p {font-size: 17px;
 	padding: 50px;
 	font-family: 'Roboto', sans-serif;
 	color: #FFFFFF;
-	font-size: 22px;
+	
 	
 	
 }
@@ -45,32 +49,31 @@ p {font-size: 17px;
 
 #projectheader {
 	color: #FFFFFF;
-	font-size: 15px;
-	padding-left: 40px;
+	padding-left: 5%;
 	padding-top: 0px;
 	margin: 10px 0 50px;
-	padding-right: 40px;
+	padding-right: 20%;
 	width: 90%;
 }
 
 #gallery {
 	margin: 0px 0 0px;
-	margin-left: 10px
+	margin-left: 0px;
+	padding-left: 5%;
 	
 }
 
 #gallery img{
-	width: 19%;
-	padding: 5px;
+	width: 20%;
+	padding: 1%;
 
 }
 
 
 #videos {
 	color: #FFFFFF;
-	font-size: 12px;
-	padding-left: 10px;
-	padding-top: 0px;
+	padding-top: 0%;
+	padding-left: 5%;
 	margin: 10px 0 50px;
 	margin-right: 0px;
 	
@@ -79,13 +82,12 @@ p {font-size: 17px;
 
 #box1 {display: inline-block;
 	position: relative;
-   margin: 15px;
-   float: left;
+   margin: 6px;
+   float:left;
 	color: #FFFFFF;
 	text-align: center;
 	border-image-width: 230px;
-	width: 30%;	
-	height: 33%;
+	width: 32%;
 	box-shadow: -1px 0 3px #FFFFFF;
 }
 #box1 img{
@@ -93,7 +95,9 @@ p {font-size: 17px;
 	
 }
 
+
 #videos video{margin: 5px;
+	
 }
 
 #footer {display: inline-block;
